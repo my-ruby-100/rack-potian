@@ -2,7 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Fri Jul  7 21:46:36 CST 2023` | -
+`Sun Sep  3 18:56:57 CST 2023` | -
 
 
 ## 1.3 一试
@@ -11,7 +11,11 @@
 Rack::Handler.constants
 ```
 
-* 所有的Rack Handler都有一个`run`方法
+所有的Rack Handler都有一个`run`方法
+
+```ruby
+Rack::Handler::WEBrick.run 
+```
 
 
 
