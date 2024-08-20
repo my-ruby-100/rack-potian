@@ -8,6 +8,8 @@
 ## 1.3 一试
 
 ```ruby
+# bundle exec irb
+# require 'rack'
 Rack::Handler.constants
 ```
 
@@ -16,6 +18,3 @@ Rack::Handler.constants
 ```ruby
 Rack::Handler::WEBrick.run 
 ```
-
-
-
